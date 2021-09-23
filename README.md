@@ -10,7 +10,7 @@ Multiple test scenarios are performed for the filter options where test data can
 <h2>Prerequisites</h2>
 <h3>Install Eclipse</h3>
 <ul>
- <li>Open a preferred browser.</li>
+ <li>Open a preferred browser, e.g. Chrome, Firefox.</li>
  <li>Go to <a href="https://www.eclipse.org/downloads/" rel="nofollow">https://www.eclipse.org/downloads/</a></li>
  <li>Press the Download button under "Get Eclipse IDE..."</li>
  <li>Click on the .exe file for Eclipse in the Downloads folder of the laptop / desktop once the download is finished.</li>
@@ -22,7 +22,7 @@ Multiple test scenarios are performed for the filter options where test data can
  
 <h3>Install Selenium WebDriver</h3>
 <ul>
- <li>Open a preferred browser.</li>
+ <li>Open a preferred browser, e.g. Chrome, Firefox.</li>
  <li>Go to <a href="https://www.selenium.dev/documentation/getting_started/installing_browser_drivers/"      rel="nofollow">https://www.selenium.dev/documentation/getting_started/installing_browser_drivers/</a></li>
  <li>Choose whether to install the ChromeDriver for Google Chrome or the GeckoDriver for Firefox.</li>
  <li>If GeckoDriver is chosen, press the Downloads button in the quick reference section which is shown on screen after pressing the Selenium web link.</li>
