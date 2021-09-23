@@ -2,7 +2,7 @@
  
 <h1>Booking Filter Test</h1>
 
-<p>This project involves the testing of the search filters of the "Booking.com" website where new choices are included in the filters, i.e. Star Rating.
+<p>This project involves the automated testing of the search filters of the "Booking.com" website where new choices are included in the filters, i.e. Star Rating.
 This is done by using the Selenium WebDriver where the test code is written in Java through the use of the Eclipse.<p>
 Multiple test scenarios are performed for the filter options where test data can be used for the filters including the locaton, dates, number of people, the room and if the hotel is listed within the filters.
 <p>The browser which is used for this testing project is "Firefox" by using the Gecko Driver and applying this to the Eclipse project.</p>
