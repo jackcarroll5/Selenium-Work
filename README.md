@@ -52,4 +52,6 @@ Multiple test scenarios are performed for the filter options where test data can
 
 <h3>First_Test.java</h3>
 
-This Java file features the initial testing of the Selenium WebDriver to navigate the user to the "Booking.com" website on Firefox before dealing with the search filtering on the "Booking.com" website in the tests that follow.
+<p>This Java file features the initial testing of the Selenium WebDriver to navigate the user to the "Booking.com" website on Firefox before dealing with the search filtering on the "Booking.com" website in the tests that follow.</p>
+<p>In the image highlighted below this paragraph, the result of the initial test for accessing the "Booking.com" post which counts as a pass is shown where test automation is used.</p>
+<img src="https://github.com/jackcarroll5/Selenium-Work/blob/main/Work_Images/First_Test_Booking_Home.PNG" alt="Booking First Test Passed"/>
