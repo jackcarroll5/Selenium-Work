@@ -41,8 +41,13 @@ public class Second_Test {
 	    driver.findElement(By.cssSelector("div.bui-calendar__control:nth-child(2)")).click();
 	    driver.findElement(By.cssSelector("div.bui-calendar__control:nth-child(2)")).click();
 	    
-	    LocalTime time = LocalTime.now();
-	    System.out.println("The current time of day: " + time);
+	    LocalTime timeCurrent = LocalTime.now();
+	    System.out.println("The current time of day: " + timeCurrent);
+	    
+	    DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+	    Date date = new Date();
+	    String dateToday = dateFormat.format(date);
+	    System.out.println("Today's date is " + dateToday);
 	    
 //	    Calendar cal = Calendar.getInstance();
 //	    SimpleDateFormat month_date = new SimpleDateFormat("MMMM", Locale.UK);
@@ -68,8 +73,7 @@ public class Second_Test {
 //        System.out.println("date is " + currentDate);
 //
 //        driver.findElement(By.xpath("//td[contains(data-date, '2021-12-27')]")).click();
-	    
-	    
+	        
 	    
 	    new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(@class, 'xp__dates__checkin')]//span[contains(@class, 'calendar-restructure-sb')]"))).click();
 	    new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='xp-calendar']//table[@class='bui-calendar__dates']//tr//td[@data-date='2021-12-27']"))).click();
